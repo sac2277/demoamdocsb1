@@ -14,5 +14,9 @@ public class MyController {
 	public String Home2() {
 		return "Welcome to jenkin demo2 controller";
 	}
+	@GetMapping("/home3")
+	public String Home3() {
+		return "Welcome to jenkin demo2 controller";
+	}
 
 }
